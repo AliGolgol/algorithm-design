@@ -16,7 +16,7 @@ class MaximumUniqueSubarrayTest {
 
     @Test
     public void should_returnSumOfUniqNum_when_arrayNotEmpty(){
-        int result = maximumUniqueSubarray.solution(new int[]{5,2,1,2,5,2,1,2,5});
+        int result = maximumUniqueSubarray.accept(new int[]{5,2,1,2,5,2,1,2,5});
 
         assertEquals(8,result);
     }

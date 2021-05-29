@@ -1,7 +1,7 @@
 package leetcode;
 
 public class MaximumUniqueSubarray {
-    public int solution(int[] nums){
+    public int accept(int[] nums){
         int left =0, right = 0, length = nums.length, sum = 0;
         int[] map = new int[10001];
         int ans = 0;
