@@ -10,14 +10,14 @@ class MaximumUniqueSubarrayTest {
     MaximumUniqueSubarray maximumUniqueSubarray;
 
     @BeforeEach
-    public void setup(){
+    public void setup() {
         maximumUniqueSubarray = new MaximumUniqueSubarray();
     }
 
     @Test
-    public void should_returnSumOfUniqNum_when_arrayNotEmpty(){
-        int result = maximumUniqueSubarray.accept(new int[]{5,2,1,2,5,2,1,2,5});
+    public void should_returnSumOfUniqNum_when_arrayNotEmpty() {
+        int result = maximumUniqueSubarray.accept(new int[]{4, 2, 4, 5, 6, 5});
 
-        assertEquals(8,result);
+        assertEquals(17, result);
     }
 }
