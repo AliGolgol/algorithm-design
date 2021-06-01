@@ -69,7 +69,7 @@ Explanation: The array contains less than 2 elements, therefore return 0.
 - 0 <= nums[i] <= 10^9
 ---
 
-### [695. Max Area of Island](./src/main/java/leetcode/ThreeSumWithMultiplicity.java)
+### [695. Max Area of Island](./src/main/java/leetcode/MaxAreaOfIsland.java)
 You are given an m x n binary matrix grid. An island is a group of 1's (representing land) connected 4-directionally (horizontal or vertical.) You may assume all four edges of the grid are surrounded by water.
 
 The area of an island is the number of cells with a value 1 in the island.
