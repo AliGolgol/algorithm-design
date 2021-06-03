@@ -15,7 +15,7 @@ class InterleavingStringTest {
 
     @Test
     public void should_Interleaving_String(){
-        boolean result = interleavingString.isInterleave("aabcc","dbbca","aadbbcbcac");
+        boolean result = interleavingString.isInterleave2("aabcc","dbbca","aadbbcbcac");
 
         assertEquals(true,result);
     }
