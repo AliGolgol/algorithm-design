@@ -1,4 +1,4 @@
-### [19. Remove Nth Node From End of List](./src/main/java/leetcode/RemoveNthFromEnd.java)
+### [Remove Nth Node From End of List](./src/main/java/leetcode/RemoveNthFromEnd.java)
 The n-queens puzzle is the problem of placing n queens on an n x n chessboard such that no two queens attack each other.
 
 Given an integer n, return the number of distinct solutions to the n-queens puzzle.
@@ -21,7 +21,7 @@ Output: 1
 - 1 <= n <= 9
 ---
 
-### [52. N-Queens II](./src/main/java/leetcode/NQueensII.java)
+### [N-Queens II](./src/main/java/leetcode/NQueensII.java)
 The n-queens puzzle is the problem of placing n queens on an n x n chessboard such that no two queens attack each other.
 
 Given an integer n, return the number of distinct solutions to the n-queens puzzle.
@@ -44,7 +44,7 @@ Output: 1
 - 1 <= n <= 9
 ---
 
-### [97. Interleaving String](./src/main/java/leetcode/InterleavingString.java)
+### [Interleaving String](./src/main/java/leetcode/InterleavingString.java)
 TGiven strings s1, s2, and s3, find whether s3 is formed by an interleaving of s1 and s2.
 
 An interleaving of two strings s and t is a configuration where they are divided into non-empty substrings such that:
@@ -77,7 +77,7 @@ Follow up: Could you solve it using only O(s2.length) additional memory space?
 
 ---
 
-### [164. Maximum Gap](./src/main/java/leetcode/MaximumGap.java)
+### [Maximum Gap](./src/main/java/leetcode/MaximumGap.java)
 Given an integer array nums, return the maximum difference between two successive elements in its sorted form. If the array contains less than two elements, return 0.
 
 You must write an algorithm that runs in linear time and uses linear extra space.
@@ -102,7 +102,7 @@ Explanation: The array contains less than 2 elements, therefore return 0.
 - 0 <= nums[i] <= 10^9
 ---
 
-### [695. Max Area of Island](./src/main/java/leetcode/MaxAreaOfIsland.java)
+### [Max Area of Island](./src/main/java/leetcode/MaxAreaOfIsland.java)
 You are given an m x n binary matrix grid. An island is a group of 1's (representing land) connected 4-directionally (horizontal or vertical.) You may assume all four edges of the grid are surrounded by water.
 
 The area of an island is the number of cells with a value 1 in the island.
@@ -130,7 +130,7 @@ Output: 0
 - grid[i][j] is either 0 or 1.
 ---
 
-### [923. 3Sum With Multiplicity](./src/main/java/leetcode/ThreeSumWithMultiplicity.java)
+### [3Sum With Multiplicity](./src/main/java/leetcode/ThreeSumWithMultiplicity.java)
 Given an integer array arr, and an integer target, return the number of tuples i, j, k such that i < j < k and arr[i] + arr[j] + arr[k] == target.
 
 As the answer can be very large, return it modulo 10^9 + 7.
@@ -163,7 +163,7 @@ and two 2s from [2,2,2,2] in 6 ways.
 - 0 <= arr[i] <= 100
 - 0 <= target <= 300
 ---
-### [1695. Maximum Erasure Value](./src/main/java/leetcode/MaximumUniqueSubarray.java)
+### [Maximum Erasure Value](./src/main/java/leetcode/MaximumUniqueSubarray.java)
 You are given an array of positive integers nums and want to erase a subarray containing unique elements. The score you get by erasing the subarray is equal to the sum of its elements.
 
 Return the maximum score you can get by erasing exactly one subarray.
