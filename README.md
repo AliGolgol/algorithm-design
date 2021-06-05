@@ -271,7 +271,7 @@ Output: -1
 - target and deadends[i] consist of digits only
 ---
 
-### [Maximum Performance of a Team](./src/main/java/leetcode/MaximumUniqueSubarray.java)
+### [Maximum Performance of a Team](./src/main/java/leetcode/MaximumPerformanceTeam.java)
 You are given two integers n and k and two integer arrays speed and efficiency both of length n. There are n engineers numbered from 1 to n. speed[i] and efficiency[i] represent the speed and efficiency of the ith engineer respectively.
 
 Choose at most k different engineers out of the n engineers to form a team with the maximum performance.
