@@ -307,7 +307,7 @@ Output: 72
 - 1 <= speed[i] <= 10^5
 - 1 <= efficiency[i] <= 10^8
 ---
-### [Longest Consecutive Sequence](./src/main/java/leetcode/MaximumPerformanceTeam.java)
+### [Longest Consecutive Sequence](./src/main/java/leetcode/LongestConsecutiveSequence.java)
 Given an unsorted array of integers nums, return the length of the longest consecutive elements sequence.
 
 You must write an algorithm that runs in O(n) time.
