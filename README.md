@@ -347,7 +347,7 @@ Explanation: Cheapest is: start on cost[0], and only step on 1s, skipping cost[3
 - 2 <= cost.length <= 1000
 - 0 <= cost[i] <= 999
 ---
-### [Construct Binary Tree from Preorder and Inorder Traversal](./src/main/java/leetcode/MinCostClimbingStairs.java)
+### [Construct Binary Tree from Preorder and Inorder Traversal](./src/main/java/leetcode/ConstructBinaryTreePreorderInorderTraversal.java)
 Given two integer arrays preorder and inorder where preorder is the preorder traversal of a binary tree and inorder is the inorder traversal of the same tree, construct and return the binary tree.
 #### Example1:
 ````
