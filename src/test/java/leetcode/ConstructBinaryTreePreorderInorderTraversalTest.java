@@ -15,7 +15,7 @@ class ConstructBinaryTreePreorderInorderTraversalTest {
 
     @Test
     public void should_Construct_Binary_Tree() {
-        ConstructBinaryTreePreorderInorderTraversal.TreeNode result = constructBinaryTreePreorderInorderTraversal.buildTreeint(new int[]{3, 9, 20, 15, 7}, new int[]{9, 3, 15, 20, 7});
+        ConstructBinaryTreePreorderInorderTraversal.TreeNode result = constructBinaryTreePreorderInorderTraversal.buildTree(new int[]{3, 9, 20, 15, 7}, new int[]{9, 3, 15, 20, 7});
         ConstructBinaryTreePreorderInorderTraversal.TreeNode expectTree = new ConstructBinaryTreePreorderInorderTraversal.TreeNode(3);
         expectTree.left = new ConstructBinaryTreePreorderInorderTraversal.TreeNode(9);
         expectTree.right = new ConstructBinaryTreePreorderInorderTraversal.TreeNode(20);
