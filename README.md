@@ -368,7 +368,7 @@ Output: [-1]
 - preorder is guaranteed to be the preorder traversal of the tree.
 - inorder is guaranteed to be the inorder traversal of the tree.
 ---
-### [Jump Game VI](./src/main/java/leetcode/ConstructBinaryTreePreorderInorderTraversal.java)
+### [Jump Game VI](./src/main/java/leetcode/JumpGameVI.java)
 You are given a 0-indexed integer array nums and an integer k.
 
 You are initially standing at index 0. In one move, you can jump at most k steps forward without going outside the boundaries of the array. That is, you can jump from index i to any index in the range [i + 1, min(n - 1, i + k)] inclusive.
