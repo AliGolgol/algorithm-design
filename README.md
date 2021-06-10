@@ -398,7 +398,7 @@ Output: 0
 - -10^4 <= nums[i] <= 10^4
 ---
 
-### [My Calendar I](./src/main/java/leetcode/JumpGameVI.java)
+### [My Calendar I](./src/main/java/leetcode/MyCalendarI.java)
 Implement a MyCalendar class to store your events. A new event can be added if adding the event will not cause a double booking.
 
 Your class will have the method, book(int start, int end). Formally, this represents a booking on the half open interval [start, end), the range of real numbers x such that start <= x < end.
