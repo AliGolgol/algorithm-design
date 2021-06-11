@@ -422,7 +422,7 @@ The third event can be booked, as the first event takes every time less than 20,
 - The number of calls to MyCalendar.book per test case will be at most 1000.
 - In calls to MyCalendar.book(start, end), start and end are integers in the range [0, 10^9].
 ---
-### [Stone Game VII](./src/main/java/leetcode/MyCalendarI.java)
+### [Stone Game VII](./src/main/java/leetcode/StoneGameVII.java)
 Alice and Bob take turns playing a game, with Alice starting first.
 
 There are n stones arranged in a row. On each player's turn, they can remove either the leftmost stone or the rightmost stone from the row and receive points equal to the sum of the remaining stones' values in the row. The winner is the one with the higher score when there are no stones left to remove.
