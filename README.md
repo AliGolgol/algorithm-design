@@ -452,7 +452,7 @@ Output: 122
 - 2 <= n <= 1000
 - 1 <= stones[i] <= 1000
 ---
-### [Minimum Number of Refueling Stops](./src/main/java/leetcode/StoneGameVII.java)
+### [Minimum Number of Refueling Stops](./src/main/java/leetcode/MinimumNumberRefuelingStops.java)
 A car travels from a starting position to a destination which is target miles east of the starting position.
 
 Along the way, there are gas stations.  Each station[i] represents a gas station that is station[i][0] miles east of the starting position, and has station[i][1] liters of gas.
