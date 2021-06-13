@@ -20,7 +20,6 @@ Output: 1
 
 - 1 <= n <= 9
 ---
-
 ### [N-Queens II](./src/main/java/leetcode/NQueensII.java)
 The n-queens puzzle is the problem of placing n queens on an n x n chessboard such that no two queens attack each other.
 
@@ -43,7 +42,6 @@ Output: 1
 
 - 1 <= n <= 9
 ---
-
 ### [Interleaving String](./src/main/java/leetcode/InterleavingString.java)
 TGiven strings s1, s2, and s3, find whether s3 is formed by an interleaving of s1 and s2.
 
@@ -76,7 +74,6 @@ Output: true
 Follow up: Could you solve it using only O(s2.length) additional memory space?
 
 ---
-
 ### [Maximum Gap](./src/main/java/leetcode/MaximumGap.java)
 Given an integer array nums, return the maximum difference between two successive elements in its sorted form. If the array contains less than two elements, return 0.
 
@@ -101,7 +98,6 @@ Explanation: The array contains less than 2 elements, therefore return 0.
 - 1 <= nums.length <= 10^4
 - 0 <= nums[i] <= 10^9
 ---
-
 ### [Max Area of Island](./src/main/java/leetcode/MaxAreaOfIsland.java)
 You are given an m x n binary matrix grid. An island is a group of 1's (representing land) connected 4-directionally (horizontal or vertical.) You may assume all four edges of the grid are surrounded by water.
 
@@ -129,7 +125,6 @@ Output: 0
 - 1 <= m, n <= 50
 - grid[i][j] is either 0 or 1.
 ---
-
 ### [3Sum With Multiplicity](./src/main/java/leetcode/ThreeSumWithMultiplicity.java)
 Given an integer array arr, and an integer target, return the number of tuples i, j, k such that i < j < k and arr[i] + arr[j] + arr[k] == target.
 
@@ -270,7 +265,6 @@ Output: -1
 - target will not be in the list deadends.
 - target and deadends[i] consist of digits only
 ---
-
 ### [Maximum Performance of a Team](./src/main/java/leetcode/MaximumPerformanceTeam.java)
 You are given two integers n and k and two integer arrays speed and efficiency both of length n. There are n engineers numbered from 1 to n. speed[i] and efficiency[i] represent the speed and efficiency of the ith engineer respectively.
 
@@ -397,7 +391,6 @@ Output: 0
 - 1 <= nums.length, k <= 10^5
 - -10^4 <= nums[i] <= 10^4
 ---
-
 ### [My Calendar I](./src/main/java/leetcode/MyCalendarI.java)
 Implement a MyCalendar class to store your events. A new event can be added if adding the event will not cause a double booking.
 
@@ -491,4 +484,28 @@ We made 2 refueling stops along the way, so we return 2.
 - 1 <= target, startFuel, stations[i][1] <= 10^9
 - 0 <= stations.length <= 500
 - 0 < stations[0][0] < stations[1][0] < ... < stations[stations.length-1][0] < target
+---
+### [Palindrome Pairs](./src/main/java/leetcode/MinimumNumberRefuelingStops.java)
+Given a list of unique words, return all the pairs of the distinct indices (i, j) in the given list, so that the concatenation of the two words words[i] + words[j] is a palindrome.
+#### Example1:
+````
+Input: words = ["abcd","dcba","lls","s","sssll"]
+Output: [[0,1],[1,0],[3,2],[2,4]]
+Explanation: The palindromes are ["dcbaabcd","abcddcba","slls","llssssll"]
+````
+#### Example2:
+````
+Input: words = ["bat","tab","cat"]
+Output: [[0,1],[1,0]]
+Explanation: The palindromes are ["battab","tabbat"]
+````
+#### Example3:
+````
+Input: words = ["a",""]
+Output: [[0,1],[1,0]]
+````
+#### Note:
+- 1 <= words.length <= 5000
+- 0 <= words[i].length <= 300
+- words[i] consists of lower-case English letters.
 ---
