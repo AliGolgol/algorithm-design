@@ -485,7 +485,7 @@ We made 2 refueling stops along the way, so we return 2.
 - 0 <= stations.length <= 500
 - 0 < stations[0][0] < stations[1][0] < ... < stations[stations.length-1][0] < target
 ---
-### [Palindrome Pairs](./src/main/java/leetcode/MinimumNumberRefuelingStops.java)
+### [Palindrome Pairs](./src/main/java/leetcode/PalindromePairs.java)
 Given a list of unique words, return all the pairs of the distinct indices (i, j) in the given list, so that the concatenation of the two words words[i] + words[j] is a palindrome.
 #### Example1:
 ````
