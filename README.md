@@ -509,7 +509,7 @@ Output: [[0,1],[1,0]]
 - 0 <= words[i].length <= 300
 - words[i] consists of lower-case English letters.
 ---
-### [Maximum Units on a Truck](./src/main/java/leetcode/PalindromePairs.java)
+### [Maximum Units on a Truck](./src/main/java/leetcode/MaximumUnitsTruck.java)
 You are assigned to put some amount of boxes onto one truck. You are given a 2D array boxTypes, where boxTypes[i] = [numberOfBoxesi, numberOfUnitsPerBoxi]:
 
 - numberOfBoxesi is the number of boxes of type i.
