@@ -1,7 +1,16 @@
 package leetcode;
 
+import java.util.Arrays;
+
 public class MaximumUnitsTruck {
     public int maximumUnits(int[][] boxTypes, int truckSize) {
-        return 0;
+        Arrays.sort(boxTypes, (a, b) -> b[1] - a[1]);
+        int ans = 0;
+        for (int[] b : boxTypes) {
+            int count = Math.min(b[0], truckSize);
+            ans += count * b[1];
+            truckSize -= count;
+        }
+        return ans;
     }
 }
