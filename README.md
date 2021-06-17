@@ -558,3 +558,18 @@ Explanation: You cannot find a way to form a square with all the matchsticks.
 - 1 <= matchsticks.length <= 15
 - 0 <= matchsticks[i] <= 10^9
 ---
+### [Generate Parentheses](./src/main/java/leetcode/MatchsticksSquare.java)
+Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
+#### Example1:
+````
+Input: n = 3
+Output: ["((()))","(()())","(())()","()(())","()()()"]
+````
+#### Example2:
+````
+Input: n = 1
+Output: ["()"]
+````
+#### Constraints:
+- 1 <= n <= 8
+---
