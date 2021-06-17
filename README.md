@@ -573,7 +573,7 @@ Output: ["()"]
 #### Constraints:
 - 1 <= n <= 8
 ---
-### [Number of Subarrays with Bounded Maximum](./src/main/java/leetcode/GenerateParentheses.java)
+### [Number of Subarrays with Bounded Maximum](./src/main/java/leetcode/NumberSubarrayBoundedMaximum.java)
 We are given an array nums of positive integers, and two positive integers left and right (left <= right).
 
 Return the number of (contiguous, non-empty) subarrays such that the value of the maximum array element in that subarray is at least left and at most right.
