@@ -590,7 +590,7 @@ Explanation: There are three subarrays that meet the requirements: [2], [2, 1], 
 - left, right, and nums[i] will be an integer in the range [0, 10^9].
 - The length of nums will be in the range of [1, 50000].
 ---
-### [Range Sum Query - Mutable](./src/main/java/leetcode/NumberSubarrayBoundedMaximum.java)
+### [Range Sum Query - Mutable](./src/main/java/leetcode/RangeSumQueryMutable.java)
 Given an integer array nums, handle multiple queries of the following types:
 
 1. Update the value of an element in nums.
