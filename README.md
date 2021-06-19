@@ -622,7 +622,7 @@ numArray.sumRange(0, 2); // return 1 + 2 + 5 = 8
 - 0 <= left <= right < nums.length
 - At most 3 * 10^4 calls will be made to update and sumRange
 ---
-### [K Inverse Pairs Array](./src/main/java/leetcode/RangeSumQueryMutable.java)
+### [K Inverse Pairs Array](./src/main/java/leetcode/KInversePairsArray.java)
 GFor an integer array nums, an inverse pair is a pair of integers [i, j] where 0 <= i < j < nums.length and nums[i] > nums[j].
 
 Given two integers n and k, return the number of different arrays consist of numbers from 1 to n such that there are exactly k inverse pairs. Since the answer can be huge, return it modulo 10^9 + 7.
