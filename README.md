@@ -677,7 +677,7 @@ We need to wait until time 16 so that (0, 0) and (4, 4) are connected.
 - 2 <= N <= 50.
 - grid[i][j] is a permutation of [0, ..., N*N - 1].
 ---
-### [Pascal's Triangle](./src/main/java/leetcode/SwimRisingWater.java)
+### [Pascal's Triangle](./src/main/java/leetcode/PascalTriangle.java)
 Given an integer numRows, return the first numRows of Pascal's triangle.
 
 In Pascal's triangle, each number is the sum of the two numbers directly above it
