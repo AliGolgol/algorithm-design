@@ -694,7 +694,7 @@ In Pascal's triangle, each number is the sum of the two numbers directly above i
 #### Constraints:
 - 1 <= numRows <= 30
 ---
-### [Number of Matching Subsequences](./src/main/java/leetcode/PascalTriangle.java)
+### [Number of Matching Subsequences](./src/main/java/leetcode/NumberMatchingSubsequences.java)
 Given a string s and an array of strings words, return the number of words[i] that is a subsequence of s.
 
 A subsequence of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters.
