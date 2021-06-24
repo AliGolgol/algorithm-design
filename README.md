@@ -734,8 +734,9 @@ Given the head of a singly linked list and two integers left and right where lef
 - 1 <= n <= 500
 - -500 <= Node.val <= 500
 - 1 <= left <= right <= n
-
 ##### Follow up: Could you do it in one pass?
+
+---
 ### [Out of Boundary Paths](./src/main/java/leetcode/OutOfBoundaryPaths.java)
 There is an m x n grid with a ball. The ball is initially at the position [startRow, startColumn]. You are allowed to move the ball to one of the four adjacent four cells in the grid (possibly out of the grid crossing the grid boundary). You can apply at most maxMove moves to the ball.
 
