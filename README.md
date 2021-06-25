@@ -664,11 +664,11 @@ When the depth of water is 3, we can swim anywhere inside the grid.
 Input: [[0,1,2,3,4],[24,23,22,21,5],[12,13,14,15,16],[11,17,18,19,20],[10,9,8,7,6]]
 Output: 16
 Explanation:
- **0  1  2  3  4**
-24 23 22 21  **5**
-**12 13 14 15 16**
-**11** 17 18 19 20
-**10  9  8  7  6**
+ 0  1  2  3  4
+24 23 22 21  5
+12 13 14 15 16
+11 17 18 19 20
+10  9  8  7  6
 
 The final route is marked in bold.
 We need to wait until time 16 so that (0, 0) and (4, 4) are connected.
@@ -683,13 +683,13 @@ Given an integer numRows, return the first numRows of Pascal's triangle.
 In Pascal's triangle, each number is the sum of the two numbers directly above it
 #### Example 1:
 ````
-**Input**: numRows = 5
-**Output**: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
+Input: numRows = 5
+Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
 ````
 #### Example 2:
 ````
-**Input**: numRows = 1
-**Output**: [[1]]
+Input: numRows = 1
+Output: [[1]]
 ````
 #### Constraints:
 - 1 <= numRows <= 30
@@ -702,14 +702,14 @@ A subsequence of a string is a new string generated from the original string wit
 - For example, "ace" is a subsequence of "abcde".
 #### Example 1:
 ````
-**Input**: s = "abcde", words = ["a","bb","acd","ace"]
-**Output**: 3
-**Explanation**: There are three strings in words that are a subsequence of s: "a", "acd", "ace".
+Input: s = "abcde", words = ["a","bb","acd","ace"]
+Output: 3
+Explanation: There are three strings in words that are a subsequence of s: "a", "acd", "ace".
 ````
 #### Example 2:
 ````
-**Input**: s = "dsahjpjauf", words = ["ahjpjau","ja","ahbwzgqnuk","tnmlanowax"]
-**Output**: 2
+Input: s = "dsahjpjauf", words = ["ahjpjau","ja","ahbwzgqnuk","tnmlanowax"]
+Output: 2
 ````
 #### Constraints:
 - 1 <= s.length <= 5 * 104
@@ -721,13 +721,13 @@ A subsequence of a string is a new string generated from the original string wit
 Given the head of a singly linked list and two integers left and right where left <= right, reverse the nodes of the list from position left to position right, and return the reversed list.
 #### Example 1:
 ````
-**Input**: head = [1,2,3,4,5], left = 2, right = 4
-**Output**: [1,4,3,2,5]
+Input: head = [1,2,3,4,5], left = 2, right = 4
+Output: [1,4,3,2,5]
 ````
 #### Example 2:
 ````
-**Input**: head = [5], left = 1, right = 1
-**Output**: [5]
+Input: head = [5], left = 1, right = 1
+Output: [5]
 ````
 #### Constraints:
 - The number of nodes in the list is n.
@@ -743,8 +743,8 @@ There is an m x n grid with a ball. The ball is initially at the position [start
 Given the five integers m, n, maxMove, startRow, startColumn, return the number of paths to move the ball out of the grid boundary. Since the answer can be very large, return it modulo 10^9 + 7.
 #### Example 1:
 ````
-**Input**: m = 2, n = 2, maxMove = 2, startRow = 0, startColumn = 0
-**Output**: 6
+Input: m = 2, n = 2, maxMove = 2, startRow = 0, startColumn = 0
+Output: 6
 ````
 #### Example 2:
 ````
@@ -765,13 +765,13 @@ You are given a graph that started as a tree with n nodes labeled from 1 to n, w
 Return an edge that can be removed so that the resulting graph is a tree of n nodes. If there are multiple answers, return the answer that occurs last in the input.
 #### Example 1:
 ````
-*Input*: edges = [[1,2],[1,3],[2,3]]
-*Output*: [2,3]
+Input: edges = [[1,2],[1,3],[2,3]]
+Output: [2,3]
 ````
 #### Example 2:
 ````
-**Input**: edges = [[1,2],[2,3],[3,4],[1,4],[1,5]]
-**Output**: [1,4]
+Input: edges = [[1,2],[2,3],[3,4],[1,4],[1,5]]
+Output: [1,4]
 ````
 #### Constraints:
 - n == edges.length
