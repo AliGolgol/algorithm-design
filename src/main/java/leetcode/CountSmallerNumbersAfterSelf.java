@@ -30,6 +30,7 @@ public class CountSmallerNumbersAfterSelf {
 
         merge(nums, indexes, start, end);
     }
+
     private void merge(int[] nums, int[] indexes, int start, int end){
         int mid = (start + end) / 2;
         int left_index = start;
