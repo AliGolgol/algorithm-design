@@ -808,7 +808,7 @@ Output: [0,0]
 - 1 <= nums.length <= 10^5
 - -10^4 <= nums[i] <= 10^4
 ---
-### [Candy](./src/main/java/leetcode/CountSmallerNumbersAfterSelf.java)
+### [Candy](./src/main/java/leetcode/Candy.java)
 There are n children standing in a line. Each child is assigned a rating value given in the integer array ratings.
 
 You are giving candies to these children subjected to the following requirements:
