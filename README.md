@@ -861,7 +861,7 @@ Input: nums = [-1,-1]
 Output: [0,0]
 ````
 #### Constraints:
-- 1 <= s.length <= 105
+- 1 <= s.length <= 10^5
 - s consists of lowercase English letters.
 ---
 ### [Lowest Common Ancestor of a Binary Tree](./src/main/java/leetcode/jun2021/LowestCommonAncestorBinaryTree.java)
