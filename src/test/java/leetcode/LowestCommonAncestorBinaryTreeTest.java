@@ -15,8 +15,10 @@ class LowestCommonAncestorBinaryTreeTest {
 
     @Test
     public void should_find_the_lowest_common_ancestor(){
+        TreeNode p = new TreeNode(5);
+        TreeNode q = new TreeNode(1);
         TreeNode root = new TreeNode(3);
-        root.left = new TreeNod(5);
+        root.left = new TreeNode(5);
         root.left.left = new TreeNode(6);
         root.left.right = new TreeNode(2);
         root.left.right.left = new TreeNode(7);
@@ -26,7 +28,7 @@ class LowestCommonAncestorBinaryTreeTest {
         root.right.left = new TreeNode(0);
         root.right.right = new TreeNode(8);
 
-        TreeNode result= lowestCommonAncestorBinaryTree.lowestCommonAncestor(root, 5, 1);
+        TreeNode result= lowestCommonAncestorBinaryTree.lowestCommonAncestor(root, p, q);
 
         assertEquals(3,result.val);
     }
