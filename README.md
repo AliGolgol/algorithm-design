@@ -865,24 +865,31 @@ Output: [0,0]
 - 1 <= s.length <= 105
 - s consists of lowercase English letters.
 ---
-### [Max Consecutive Ones III](./src/main/java/leetcode/MaxConsecutiveOnesIII.java)
-Given a binary array nums and an integer k, return the maximum number of consecutive 1's in the array if you can flip at most k 0's.
+### [Lowest Common Ancestor of a Binary Tree](./src/main/java/leetcode/LowestCommonAncestorBinaryTree.java)
+Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.
+
+According to the definition of LCA on Wikipedia: “The lowest common ancestor is defined between two nodes p and q as the lowest node in T that has both p and q as descendants (where we allow a node to be a descendant of itself).”
 #### Example 1:
 ````
-Input: nums = [1,1,1,0,0,0,1,1,1,1,0], k = 2
-Output: 6
-Explanation: [1,1,1,0,0,1,1,1,1,1,1]
-Bolded numbers were flipped from 0 to 1. The longest subarray is underlined.
+Input: root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 1
+Output: 3
+Explanation: The LCA of nodes 5 and 1 is 3.
 ````
 #### Example 2:
 ````
-Input: nums = [0,0,1,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1], k = 3
-Output: 10
-Explanation: [0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1]
-Bolded numbers were flipped from 0 to 1. The longest subarray is underlined.
+Input: root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 4
+Output: 5
+Explanation: The LCA of nodes 5 and 4 is 5, since a node can be a descendant of itself according to the LCA definition.
+````
+#### Example 3:
+````
+Input: root = [1,2], p = 1, q = 2
+Output: 1
 ````
 #### Constraints:
-- 1 <= nums.length <= 10^5
-- nums[i] is either 0 or 1.
-- 0 <= k <= nums.length
+- The number of nodes in the tree is in the range [2, 10^5].
+- -10^9 <= Node.val <= 10^9
+- All Node.val are unique.
+- p != q
+- p and q will exist in the tree.
 ---
