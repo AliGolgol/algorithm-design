@@ -1,4 +1,25 @@
-### [Remove Nth Node From End of List](./src/main/java/leetcode/RemoveNthFromEnd.java)
+### [Remove Nth Node From End of List](./src/main/java/leetcode/jun2021/RemoveNthFromEnd.java)
+The n-queens puzzle is the problem of placing n queens on an n x n chessboard such that no two queens attack each other.
+
+Given an integer n, return the number of distinct solutions to the n-queens puzzle.
+
+#### Example1:
+````
+Input: n = 4
+Output: 2
+Explanation: There are two distinct solutions to the 4-queens puzzle as shown.
+````
+#### Example2:
+````
+Input: n = 1
+Output: 1
+````
+
+#### Constraints:
+
+- 1 <= n <= 9
+---
+### [N-Queens II](./src/main/java/leetcode/jun2021/NQueensII.java)
 The n-queens puzzle is the problem of placing n queens on an n x n chessboard such that no two queens attack each other.
 
 Given an integer n, return the number of distinct solutions to the n-queens puzzle.
@@ -20,29 +41,7 @@ Output: 1
 
 - 1 <= n <= 9
 ---
-### [N-Queens II](./src/main/java/leetcode/NQueensII.java)
-The n-queens puzzle is the problem of placing n queens on an n x n chessboard such that no two queens attack each other.
-
-Given an integer n, return the number of distinct solutions to the n-queens puzzle.
-
-#### Example1:
-````
-Input: n = 4
-Output: 2
-Explanation: There are two distinct solutions to the 4-queens puzzle as shown.
-````
-
-#### Example2:
-````
-Input: n = 1
-Output: 1
-````
-
-#### Constraints:
-
-- 1 <= n <= 9
----
-### [Interleaving String](./src/main/java/leetcode/InterleavingString.java)
+### [Interleaving String](./src/main/java/leetcode/jun2021/InterleavingString.java)
 TGiven strings s1, s2, and s3, find whether s3 is formed by an interleaving of s1 and s2.
 
 An interleaving of two strings s and t is a configuration where they are divided into non-empty substrings such that:
@@ -74,7 +73,7 @@ Output: true
 Follow up: Could you solve it using only O(s2.length) additional memory space?
 
 ---
-### [Maximum Gap](./src/main/java/leetcode/MaximumGap.java)
+### [Maximum Gap](./src/main/java/leetcode/jun2021/MaximumGap.java)
 Given an integer array nums, return the maximum difference between two successive elements in its sorted form. If the array contains less than two elements, return 0.
 
 You must write an algorithm that runs in linear time and uses linear extra space.
@@ -98,7 +97,7 @@ Explanation: The array contains less than 2 elements, therefore return 0.
 - 1 <= nums.length <= 10^4
 - 0 <= nums[i] <= 10^9
 ---
-### [Max Area of Island](./src/main/java/leetcode/MaxAreaOfIsland.java)
+### [Max Area of Island](./src/main/java/leetcode/jun2021/MaxAreaOfIsland.java)
 You are given an m x n binary matrix grid. An island is a group of 1's (representing land) connected 4-directionally (horizontal or vertical.) You may assume all four edges of the grid are surrounded by water.
 
 The area of an island is the number of cells with a value 1 in the island.
@@ -125,7 +124,7 @@ Output: 0
 - 1 <= m, n <= 50
 - grid[i][j] is either 0 or 1.
 ---
-### [3Sum With Multiplicity](./src/main/java/leetcode/ThreeSumWithMultiplicity.java)
+### [3Sum With Multiplicity](./src/main/java/leetcode/jun2021/ThreeSumWithMultiplicity.java)
 Given an integer array arr, and an integer target, return the number of tuples i, j, k such that i < j < k and arr[i] + arr[j] + arr[k] == target.
 
 As the answer can be very large, return it modulo 10^9 + 7.
@@ -158,7 +157,7 @@ and two 2s from [2,2,2,2] in 6 ways.
 - 0 <= arr[i] <= 100
 - 0 <= target <= 300
 ---
-### [Maximum Erasure Value](./src/main/java/leetcode/MaximumUniqueSubarray.java)
+### [Maximum Erasure Value](./src/main/java/leetcode/jun2021/MaximumUniqueSubarray.java)
 You are given an array of positive integers nums and want to erase a subarray containing unique elements. The score you get by erasing the subarray is equal to the sum of its elements.
 
 Return the maximum score you can get by erasing exactly one subarray.
@@ -184,7 +183,7 @@ Explanation: The optimal subarray here is [5,2,1] or [1,2,5].
 - 1 <= nums.length <= 10^5
 - 1 <= nums[i] <= 10^4
 ---
-### [Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](./src/main/java/leetcode/MaximumUniqueSubarray.java)
+### [Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](./src/main/java/leetcode/jun2021/MaximumUniqueSubarray.java)
 Given a rectangular cake with height h and width w, and two arrays of integers horizontalCuts and verticalCuts where horizontalCuts[i] is the distance from the top of the rectangular cake to the ith horizontal cut and similarly, verticalCuts[j] is the distance from the left of the rectangular cake to the jth vertical cut.
 
 Return the maximum area of a piece of cake after you cut at each horizontal and vertical position provided in the arrays horizontalCuts and verticalCuts. Since the answer can be a huge number, return this modulo 10^9 + 7.
@@ -218,7 +217,7 @@ Output: 9
 - It is guaranteed that all elements in horizontalCuts are distinct.
 - It is guaranteed that all elements in verticalCuts are distinct.
 ---
-### [Open the Lock](./src/main/java/leetcode/MaximumUniqueSubarray.java)
+### [Open the Lock](./src/main/java/leetcode/jun2021/MaximumUniqueSubarray.java)
 You have a lock in front of you with 4 circular wheels. Each wheel has 10 slots: '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'. The wheels can rotate freely and wrap around: for example we can turn '9' to be '0', or '0' to be '9'. Each move consists of turning one wheel one slot.
 
 The lock initially starts at '0000', a string representing the state of the 4 wheels.
@@ -265,7 +264,7 @@ Output: -1
 - target will not be in the list deadends.
 - target and deadends[i] consist of digits only
 ---
-### [Maximum Performance of a Team](./src/main/java/leetcode/MaximumPerformanceTeam.java)
+### [Maximum Performance of a Team](./src/main/java/leetcode/jun2021/MaximumPerformanceTeam.java)
 You are given two integers n and k and two integer arrays speed and efficiency both of length n. There are n engineers numbered from 1 to n. speed[i] and efficiency[i] represent the speed and efficiency of the ith engineer respectively.
 
 Choose at most k different engineers out of the n engineers to form a team with the maximum performance.
@@ -301,7 +300,7 @@ Output: 72
 - 1 <= speed[i] <= 10^5
 - 1 <= efficiency[i] <= 10^8
 ---
-### [Longest Consecutive Sequence](./src/main/java/leetcode/LongestConsecutiveSequence.java)
+### [Longest Consecutive Sequence](./src/main/java/leetcode/jun2021/LongestConsecutiveSequence.java)
 Given an unsorted array of integers nums, return the length of the longest consecutive elements sequence.
 
 You must write an algorithm that runs in O(n) time.
@@ -321,7 +320,7 @@ Output: 9
 - 0 <= nums.length <= 10^5
 - -10^9 <= nums[i] <= 10^9
 ---
-### [Min Cost Climbing Stairs](./src/main/java/leetcode/MinCostClimbingStairs.java)
+### [Min Cost Climbing Stairs](./src/main/java/leetcode/jun2021/MinCostClimbingStairs.java)
 You are given an integer array cost where cost[i] is the cost of ith step on a staircase. Once you pay the cost, you can either climb one or two steps.
 You can either start from the step with index 0, or the step with index 1.
 Return the minimum cost to reach the top of the floor.
@@ -341,7 +340,7 @@ Explanation: Cheapest is: start on cost[0], and only step on 1s, skipping cost[3
 - 2 <= cost.length <= 1000
 - 0 <= cost[i] <= 999
 ---
-### [Construct Binary Tree from Preorder and Inorder Traversal](./src/main/java/leetcode/ConstructBinaryTreePreorderInorderTraversal.java)
+### [Construct Binary Tree from Preorder and Inorder Traversal](./src/main/java/leetcode/jun2021/ConstructBinaryTreePreorderInorderTraversal.java)
 Given two integer arrays preorder and inorder where preorder is the preorder traversal of a binary tree and inorder is the inorder traversal of the same tree, construct and return the binary tree.
 #### Example1:
 ````
@@ -362,7 +361,7 @@ Output: [-1]
 - preorder is guaranteed to be the preorder traversal of the tree.
 - inorder is guaranteed to be the inorder traversal of the tree.
 ---
-### [Jump Game VI](./src/main/java/leetcode/JumpGameVI.java)
+### [Jump Game VI](./src/main/java/leetcode/jun2021/JumpGameVI.java)
 You are given a 0-indexed integer array nums and an integer k.
 
 You are initially standing at index 0. In one move, you can jump at most k steps forward without going outside the boundaries of the array. That is, you can jump from index i to any index in the range [i + 1, min(n - 1, i + k)] inclusive.
@@ -391,7 +390,7 @@ Output: 0
 - 1 <= nums.length, k <= 10^5
 - -10^4 <= nums[i] <= 10^4
 ---
-### [My Calendar I](./src/main/java/leetcode/MyCalendarI.java)
+### [My Calendar I](./src/main/java/leetcode/jun2021/MyCalendarI.java)
 Implement a MyCalendar class to store your events. A new event can be added if adding the event will not cause a double booking.
 
 Your class will have the method, book(int start, int end). Formally, this represents a booking on the half open interval [start, end), the range of real numbers x such that start <= x < end.
@@ -415,7 +414,7 @@ The third event can be booked, as the first event takes every time less than 20,
 - The number of calls to MyCalendar.book per test case will be at most 1000.
 - In calls to MyCalendar.book(start, end), start and end are integers in the range [0, 10^9].
 ---
-### [Stone Game VII](./src/main/java/leetcode/StoneGameVII.java)
+### [Stone Game VII](./src/main/java/leetcode/jun2021/StoneGameVII.java)
 Alice and Bob take turns playing a game, with Alice starting first.
 
 There are n stones arranged in a row. On each player's turn, they can remove either the leftmost stone or the rightmost stone from the row and receive points equal to the sum of the remaining stones' values in the row. The winner is the one with the higher score when there are no stones left to remove.
@@ -445,7 +444,7 @@ Output: 122
 - 2 <= n <= 1000
 - 1 <= stones[i] <= 1000
 ---
-### [Minimum Number of Refueling Stops](./src/main/java/leetcode/MinimumNumberRefuelingStops.java)
+### [Minimum Number of Refueling Stops](./src/main/java/leetcode/jun2021/MinimumNumberRefuelingStops.java)
 A car travels from a starting position to a destination which is target miles east of the starting position.
 
 Along the way, there are gas stations.  Each station[i] represents a gas station that is station[i][0] miles east of the starting position, and has station[i][1] liters of gas.
@@ -485,7 +484,7 @@ We made 2 refueling stops along the way, so we return 2.
 - 0 <= stations.length <= 500
 - 0 < stations[0][0] < stations[1][0] < ... < stations[stations.length-1][0] < target
 ---
-### [Palindrome Pairs](./src/main/java/leetcode/PalindromePairs.java)
+### [Palindrome Pairs](./src/main/java/leetcode/jun2021/PalindromePairs.java)
 Given a list of unique words, return all the pairs of the distinct indices (i, j) in the given list, so that the concatenation of the two words words[i] + words[j] is a palindrome.
 #### Example1:
 ````
@@ -509,7 +508,7 @@ Output: [[0,1],[1,0]]
 - 0 <= words[i].length <= 300
 - words[i] consists of lower-case English letters.
 ---
-### [Maximum Units on a Truck](./src/main/java/leetcode/MaximumUnitsTruck.java)
+### [Maximum Units on a Truck](./src/main/java/leetcode/jun2021/MaximumUnitsTruck.java)
 You are assigned to put some amount of boxes onto one truck. You are given a 2D array boxTypes, where boxTypes[i] = [numberOfBoxesi, numberOfUnitsPerBoxi]:
 
 - numberOfBoxesi is the number of boxes of type i.
@@ -538,7 +537,7 @@ Output: 91
 - 1 <= numberOfBoxesi, numberOfUnitsPerBoxi <= 1000
 - 1 <= truckSize <= 10^6
 ---
-### [Matchsticks to Square](./src/main/java/leetcode/MatchsticksSquare.java)
+### [Matchsticks to Square](./src/main/java/leetcode/jun2021/MatchsticksSquare.java)
 You are given an integer array matchsticks where matchsticks[i] is the length of the ith matchstick. You want to use all the matchsticks to make one square. You should not break any stick, but you can link them up, and each matchstick must be used exactly one time.
 
 Return true if you can make this square and false otherwise.
@@ -558,7 +557,7 @@ Explanation: You cannot find a way to form a square with all the matchsticks.
 - 1 <= matchsticks.length <= 15
 - 0 <= matchsticks[i] <= 10^9
 ---
-### [Generate Parentheses](./src/main/java/leetcode/GenerateParentheses.java)
+### [Generate Parentheses](./src/main/java/leetcode/jun2021/GenerateParentheses.java)
 Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
 #### Example1:
 ````
@@ -573,7 +572,7 @@ Output: ["()"]
 #### Constraints:
 - 1 <= n <= 8
 ---
-### [Number of Subarrays with Bounded Maximum](./src/main/java/leetcode/NumberSubarrayBoundedMaximum.java)
+### [Number of Subarrays with Bounded Maximum](./src/main/java/leetcode/jun2021/NumberSubarrayBoundedMaximum.java)
 We are given an array nums of positive integers, and two positive integers left and right (left <= right).
 
 Return the number of (contiguous, non-empty) subarrays such that the value of the maximum array element in that subarray is at least left and at most right.
@@ -590,7 +589,7 @@ Explanation: There are three subarrays that meet the requirements: [2], [2, 1], 
 - left, right, and nums[i] will be an integer in the range [0, 10^9].
 - The length of nums will be in the range of [1, 50000].
 ---
-### [Range Sum Query - Mutable](./src/main/java/leetcode/RangeSumQueryMutable.java)
+### [Range Sum Query - Mutable](./src/main/java/leetcode/jun2021/RangeSumQueryMutable.java)
 Given an integer array nums, handle multiple queries of the following types:
 
 1. Update the value of an element in nums.
@@ -622,7 +621,7 @@ numArray.sumRange(0, 2); // return 1 + 2 + 5 = 8
 - 0 <= left <= right < nums.length
 - At most 3 * 10^4 calls will be made to update and sumRange
 ---
-### [K Inverse Pairs Array](./src/main/java/leetcode/KInversePairsArray.java)
+### [K Inverse Pairs Array](./src/main/java/leetcode/jun2021/KInversePairsArray.java)
 GFor an integer array nums, an inverse pair is a pair of integers [i, j] where 0 <= i < j < nums.length and nums[i] > nums[j].
 
 Given two integers n and k, return the number of different arrays consist of numbers from 1 to n such that there are exactly k inverse pairs. Since the answer can be huge, return it modulo 10^9 + 7.
@@ -642,7 +641,7 @@ Explanation: The array [1,3,2] and [2,1,3] have exactly 1 inverse pair.
 - 1 <= n <= 1000
 - 0 <= k <= 1000
 ---
-### [Swim in Rising Water](./src/main/java/leetcode/SwimRisingWater.java)
+### [Swim in Rising Water](./src/main/java/leetcode/jun2021/SwimRisingWater.java)
 On an N x N grid, each square grid[i][j] represents the elevation at that point (i,j).
 
 Now rain starts to fall. At time t, the depth of the water everywhere is t. You can swim from a square to another 4-directionally adjacent square if and only if the elevation of both squares individually are at most t. You can swim infinite distance in zero time. Of course, you must stay within the boundaries of the grid during your swim.
@@ -677,7 +676,7 @@ We need to wait until time 16 so that (0, 0) and (4, 4) are connected.
 - 2 <= N <= 50.
 - grid[i][j] is a permutation of [0, ..., N*N - 1].
 ---
-### [Pascal's Triangle](./src/main/java/leetcode/PascalTriangle.java)
+### [Pascal's Triangle](./src/main/java/leetcode/jun2021/PascalTriangle.java)
 Given an integer numRows, return the first numRows of Pascal's triangle.
 
 In Pascal's triangle, each number is the sum of the two numbers directly above it
@@ -694,7 +693,7 @@ Output: [[1]]
 #### Constraints:
 - 1 <= numRows <= 30
 ---
-### [Number of Matching Subsequences](./src/main/java/leetcode/NumberMatchingSubsequences.java)
+### [Number of Matching Subsequences](./src/main/java/leetcode/jun2021/NumberMatchingSubsequences.java)
 Given a string s and an array of strings words, return the number of words[i] that is a subsequence of s.
 
 A subsequence of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters.
@@ -717,7 +716,7 @@ Output: 2
 - 1 <= words[i].length <= 50
 - s and words[i] consist of only lowercase English letters.
 ---
-### [Reverse Linked List II](./src/main/java/leetcode/ReverseLinkedListII.java)
+### [Reverse Linked List II](./src/main/java/leetcode/jun2021/ReverseLinkedListII.java)
 Given the head of a singly linked list and two integers left and right where left <= right, reverse the nodes of the list from position left to position right, and return the reversed list.
 #### Example 1:
 ````
@@ -737,7 +736,7 @@ Output: [5]
 ##### Follow up: Could you do it in one pass?
 
 ---
-### [Out of Boundary Paths](./src/main/java/leetcode/OutOfBoundaryPaths.java)
+### [Out of Boundary Paths](./src/main/java/leetcode/jun2021/OutOfBoundaryPaths.java)
 There is an m x n grid with a ball. The ball is initially at the position [startRow, startColumn]. You are allowed to move the ball to one of the four adjacent four cells in the grid (possibly out of the grid crossing the grid boundary). You can apply at most maxMove moves to the ball.
 
 Given the five integers m, n, maxMove, startRow, startColumn, return the number of paths to move the ball out of the grid boundary. Since the answer can be very large, return it modulo 10^9 + 7.
@@ -757,7 +756,7 @@ Output: 12
 - 0 <= startRow <= m
 - 0 <= startColumn <= n
 ---
-### [Redundant Connection](./src/main/java/leetcode/RedundantConnection.java)
+### [Redundant Connection](./src/main/java/leetcode/jun2021/RedundantConnection.java)
 In this problem, a tree is an undirected graph that is connected and has no cycles.
 
 You are given a graph that started as a tree with n nodes labeled from 1 to n, with one additional edge added. The added edge has two different vertices chosen from 1 to n, and was not an edge that already existed. The graph is represented as an array edges of length n where edges[i] = [ai, bi] indicates that there is an edge between nodes ai and bi in the graph.
@@ -782,7 +781,7 @@ Output: [1,4]
 - There are no repeated edges.
 - The given graph is connected.
 ---
-### [Count of Smaller Numbers After Self](./src/main/java/leetcode/CountSmallerNumbersAfterSelf.java)
+### [Count of Smaller Numbers After Self](./src/main/java/leetcode/jun2021/CountSmallerNumbersAfterSelf.java)
 You are given an integer array nums and you have to return a new counts array. The counts array has the property where counts[i] is the number of smaller elements to the right of nums[i].
 #### Example 1:
 ````
@@ -808,7 +807,7 @@ Output: [0,0]
 - 1 <= nums.length <= 10^5
 - -10^4 <= nums[i] <= 10^4
 ---
-### [Candy](./src/main/java/leetcode/Candy.java)
+### [Candy](./src/main/java/leetcode/jun2021/Candy.java)
 There are n children standing in a line. Each child is assigned a rating value given in the integer array ratings.
 
 You are giving candies to these children subjected to the following requirements:
@@ -838,7 +837,7 @@ Output: [0,0]
 - 1 <= n <= 2 * 10^4
 - 0 <= ratings[i] <= 2 * 10^4
 ---
-### [Remove All Adjacent Duplicates In String](./src/main/java/leetcode/RemoveAllAdjacentDuplicatesInString.java)
+### [Remove All Adjacent Duplicates In String](./src/main/java/leetcode/jun2021/RemoveAllAdjacentDuplicatesInString.java)
 You are given a string s consisting of lowercase English letters. A duplicate removal consists of choosing two adjacent and equal letters and removing them.
 
 We repeatedly make duplicate removals on s until we no longer can.
@@ -865,7 +864,7 @@ Output: [0,0]
 - 1 <= s.length <= 105
 - s consists of lowercase English letters.
 ---
-### [Lowest Common Ancestor of a Binary Tree](./src/main/java/leetcode/LowestCommonAncestorBinaryTree.java)
+### [Lowest Common Ancestor of a Binary Tree](./src/main/java/leetcode/jun2021/LowestCommonAncestorBinaryTree.java)
 Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.
 
 According to the definition of LCA on Wikipedia: “The lowest common ancestor is defined between two nodes p and q as the lowest node in T that has both p and q as descendants (where we allow a node to be a descendant of itself).”
