@@ -892,7 +892,7 @@ Output: 1
 - p != q
 - p and q will exist in the tree.
 ---
-### [Gray Code](./src/main/java/leetcode/jul2021/Gray Code.java)
+### [Gray Code](./src/main/java/leetcode/jul2021/GrayCode.java)
 An n-bit gray code sequence is a sequence of 2n integers where:
 
 - Every integer is in the inclusive range [0, 2n - 1],
