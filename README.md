@@ -948,7 +948,7 @@ Output: [1,2,3,4]
 - arr is sorted in ascending order.
 - -10^4 <= arr[i], x <= 10^4
 ---
-### [Max Sum of Rectangle No Larger Than K](./src/main/java/leetcode/jul2021/FindKClosestElements.java)
+### [Max Sum of Rectangle No Larger Than K](./src/main/java/leetcode/jul2021/MaxSumRectangleNoLargerThanK.java)
 Given an m x n matrix matrix and an integer k, return the max sum of a rectangle in the matrix such that its sum is no larger than k.
 
 It is guaranteed that there will be a rectangle with a sum no larger than k.
