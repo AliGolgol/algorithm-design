@@ -18,6 +18,6 @@ class RedundantConnectionTest {
     public void should_Return_an_edge(){
         int[] result = redundantConnection.findRedundantConnection(new int[][]{{1,2},{2,3},{3,4},{1,4},{1,5}});
 
-        assertEquals(new int[]{1,4},result);
+        assertArrayEquals(new int[]{1,4},result);
     }
 }

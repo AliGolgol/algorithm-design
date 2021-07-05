@@ -3,6 +3,8 @@ package leetcode.jul2021;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class ReshapeMatrixTest {
@@ -21,7 +23,7 @@ class ReshapeMatrixTest {
         int[][] expect = {{1,2,3,4}};
         int[][] result = reshapeMatrix.accept(mat,r,c);
 
-        assertEquals(expect,result);
+        assertArrayEquals(expect,result);
 
     }
 
