@@ -1134,7 +1134,7 @@ Output: 1
 
 ---
 ### [Decode Ways II](./src/main/java/leetcode/jul2021/DecodeWaysII.java)
-Decode Ways II
+A message containing letters from A-Z can be encoded into numbers using the following mapping:
 ````
 'A' -> "1"
 'B' -> "2"
