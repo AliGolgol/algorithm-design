@@ -1336,6 +1336,6 @@ Input: arr = [1,1,0,0,1]
 Output: [0,2]
 ````
 #### Constraints:
-- 3 <= arr.length <= 3 * 104
+- 3 <= arr.length <= 3 * 10^4
 - arr[i] is 0 or 1
 ---
