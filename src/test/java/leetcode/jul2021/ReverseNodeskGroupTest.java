@@ -16,18 +16,18 @@ class ReverseNodeskGroupTest {
     @Test
     public void should_return_its_modified_list(){
         int k = 2;
-        ReverseNodeskGroup.ListNode head = new ReverseNodeskGroup.ListNode(1);
-        head.next = new ReverseNodeskGroup.ListNode(2);
-        head.next.next = new ReverseNodeskGroup.ListNode(3);
-        head.next.next.next = new ReverseNodeskGroup.ListNode(4);
-        head.next.next.next.next = new ReverseNodeskGroup.ListNode(5);
-        ReverseNodeskGroup.ListNode result = reverseNodeskGroup.accept(head,k);
+        ListNode head = new ListNode(1);
+        head.next = new ListNode(2);
+        head.next.next = new ListNode(3);
+        head.next.next.next = new ListNode(4);
+        head.next.next.next.next = new ListNode(5);
+        ListNode result = reverseNodeskGroup.accept(head,k);
 
-        ReverseNodeskGroup.ListNode expected = new ReverseNodeskGroup.ListNode(2);
-        head.next = new ReverseNodeskGroup.ListNode(1);
-        head.next.next = new ReverseNodeskGroup.ListNode(4);
-        head.next.next.next = new ReverseNodeskGroup.ListNode(3);
-        head.next.next.next.next = new ReverseNodeskGroup.ListNode(5);
+        ListNode expected = new ListNode(2);
+        head.next = new ListNode(1);
+        head.next.next = new ListNode(4);
+        head.next.next.next = new ListNode(3);
+        head.next.next.next.next = new ListNode(5);
 
         assertEquals(expected, result);
     }
